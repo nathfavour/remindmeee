@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vector_math/vector_math.dart' as vector;
 
 class ReminderCard extends StatefulWidget {
-  const ReminderCard({Key? key}) : super(key: key);
+  const ReminderCard({super.key});
 
   @override
   State<ReminderCard> createState() => _ReminderCardState();

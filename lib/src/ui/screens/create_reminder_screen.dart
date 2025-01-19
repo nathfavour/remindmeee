@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CreateReminderScreen extends StatelessWidget {
-  const CreateReminderScreen({Key? key}) : super(key: key);
+  const CreateReminderScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
