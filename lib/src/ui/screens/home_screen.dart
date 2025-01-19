@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/reminder_card.dart';
 import '../widgets/custom_app_bar.dart';
+import '../widgets/add_button.dart';
 import 'create_reminder_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -12,9 +13,7 @@ class HomeScreen extends StatelessWidget {
       appBar: const CustomAppBar(title: 'Reminders'),
       body: ListView(
         children: const [
-          // ...existing code...
           ReminderCard(),
-          // ...existing code...
         ],
       ),
       floatingActionButton: const AddButton(),
